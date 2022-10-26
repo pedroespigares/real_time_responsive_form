@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Form</title>
+    <link rel="icon" href="./media/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <form autocomplete="off">
+        <input
+          id="userTyping"
+          type="text"
+          name="username"
+          placeholder="username"
+        />
+        <ui>
+          <li id="lowercase">1 lowercase character</li>
+          <li id="uppercase">1 uppercase character</li>
+          <li id="minCharacter">6 minimun character</li>
+        </ui>
+        <input id="submit" type="submit" value="Not valid yet!" disabled/>
+      </form>
+    </div>
+    <script src="real_time_form.js"></script>
+  </body>
+</html>
